@@ -1,0 +1,412 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5A2104BF1CC675E2007A3D7B /* PropoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A2104BE1CC675E2007A3D7B /* PropoView.swift */; };
+		5A67534E1CFAD5E20020DFFF /* SettingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A67534D1CFAD5E20020DFFF /* SettingViewController.swift */; };
+		5A6753501CFB03AB0020DFFF /* MyButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A67534F1CFB03AB0020DFFF /* MyButton.swift */; };
+		5A6A13721CC522FB005A49EF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1F71F041C098117005F6C16 /* AppDelegate.swift */; };
+		5A6A13731CC52308005A49EF /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1F71F061C098117005F6C16 /* ViewController.swift */; };
+		5AAAA6131E08020A002F76CE /* WiFiComm.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AAAA6121E08020A002F76CE /* WiFiComm.swift */; };
+		5AB279E31E0945160099F90E /* SerialReceiver.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AB279E21E0945160099F90E /* SerialReceiver.swift */; };
+		5ADC19ED1CFF060C008A585D /* NumericUpDownView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5ADC19EC1CFF060C008A585D /* NumericUpDownView.xib */; };
+		5ADC19EF1CFF0871008A585D /* NumericUpDownView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5ADC19EE1CFF0871008A585D /* NumericUpDownView.swift */; };
+		9B9742F13346866367E362FB /* Pods_GPPropoWiFi.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 684DEE80AD263B4AA2BF67D0 /* Pods_GPPropoWiFi.framework */; };
+		E1F71F0A1C098117005F6C16 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E1F71F081C098117005F6C16 /* Main.storyboard */; };
+		E1F71F0C1C098117005F6C16 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E1F71F0B1C098117005F6C16 /* Assets.xcassets */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		2B9F4C1676A5904D998AFDFE /* Pods-GPPropoWiFi.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GPPropoWiFi.debug.xcconfig"; path = "Pods/Target Support Files/Pods-GPPropoWiFi/Pods-GPPropoWiFi.debug.xcconfig"; sourceTree = "<group>"; };
+		5A2104BE1CC675E2007A3D7B /* PropoView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PropoView.swift; sourceTree = "<group>"; };
+		5A67534D1CFAD5E20020DFFF /* SettingViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingViewController.swift; sourceTree = "<group>"; };
+		5A67534F1CFB03AB0020DFFF /* MyButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MyButton.swift; sourceTree = "<group>"; };
+		5AAAA6121E08020A002F76CE /* WiFiComm.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WiFiComm.swift; sourceTree = "<group>"; };
+		5AB279E21E0945160099F90E /* SerialReceiver.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SerialReceiver.swift; sourceTree = "<group>"; };
+		5ADC19EC1CFF060C008A585D /* NumericUpDownView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = NumericUpDownView.xib; sourceTree = "<group>"; };
+		5ADC19EE1CFF0871008A585D /* NumericUpDownView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NumericUpDownView.swift; sourceTree = "<group>"; };
+		684DEE80AD263B4AA2BF67D0 /* Pods_GPPropoWiFi.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GPPropoWiFi.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		740ACC57325F770D94F44E64 /* Pods-GPPropoWiFi.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GPPropoWiFi.release.xcconfig"; path = "Pods/Target Support Files/Pods-GPPropoWiFi/Pods-GPPropoWiFi.release.xcconfig"; sourceTree = "<group>"; };
+		E1F71F011C098117005F6C16 /* GP Propo WiFi.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "GP Propo WiFi.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E1F71F041C098117005F6C16 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		E1F71F061C098117005F6C16 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		E1F71F091C098117005F6C16 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		E1F71F0B1C098117005F6C16 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		E1F71F101C098117005F6C16 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E1F71EFE1C098117005F6C16 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9B9742F13346866367E362FB /* Pods_GPPropoWiFi.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		593899205EC51F8CE28925CB /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				684DEE80AD263B4AA2BF67D0 /* Pods_GPPropoWiFi.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E1F71EF81C098117005F6C16 = {
+			isa = PBXGroup;
+			children = (
+				E1F71F031C098117005F6C16 /* GPPropoWiFi */,
+				E1F71F021C098117005F6C16 /* Products */,
+				F0C3E593CE639F0E51F60702 /* Pods */,
+				593899205EC51F8CE28925CB /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		E1F71F021C098117005F6C16 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E1F71F011C098117005F6C16 /* GP Propo WiFi.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E1F71F031C098117005F6C16 /* GPPropoWiFi */ = {
+			isa = PBXGroup;
+			children = (
+				5A2104BE1CC675E2007A3D7B /* PropoView.swift */,
+				E1F71F041C098117005F6C16 /* AppDelegate.swift */,
+				E1F71F061C098117005F6C16 /* ViewController.swift */,
+				5A67534D1CFAD5E20020DFFF /* SettingViewController.swift */,
+				5A67534F1CFB03AB0020DFFF /* MyButton.swift */,
+				E1F71F081C098117005F6C16 /* Main.storyboard */,
+				E1F71F0B1C098117005F6C16 /* Assets.xcassets */,
+				E1F71F101C098117005F6C16 /* Info.plist */,
+				5ADC19EE1CFF0871008A585D /* NumericUpDownView.swift */,
+				5ADC19EC1CFF060C008A585D /* NumericUpDownView.xib */,
+				5AAAA6121E08020A002F76CE /* WiFiComm.swift */,
+				5AB279E21E0945160099F90E /* SerialReceiver.swift */,
+			);
+			path = GPPropoWiFi;
+			sourceTree = "<group>";
+		};
+		F0C3E593CE639F0E51F60702 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				2B9F4C1676A5904D998AFDFE /* Pods-GPPropoWiFi.debug.xcconfig */,
+				740ACC57325F770D94F44E64 /* Pods-GPPropoWiFi.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E1F71F001C098117005F6C16 /* GPPropoWiFi */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E1F71F131C098117005F6C16 /* Build configuration list for PBXNativeTarget "GPPropoWiFi" */;
+			buildPhases = (
+				7344D8E09627AC4B8CD6B59F /* [CP] Check Pods Manifest.lock */,
+				E1F71EFD1C098117005F6C16 /* Sources */,
+				E1F71EFE1C098117005F6C16 /* Frameworks */,
+				E1F71EFF1C098117005F6C16 /* Resources */,
+				2A1420F81354C975274E7C92 /* [CP] Embed Pods Frameworks */,
+				7F5310D13DB87D63EF263565 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GPPropoWiFi;
+			productName = GPduinoSample;
+			productReference = E1F71F011C098117005F6C16 /* GP Propo WiFi.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E1F71EF91C098117005F6C16 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0710;
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = lipoyang;
+				TargetAttributes = {
+					E1F71F001C098117005F6C16 = {
+						CreatedOnToolsVersion = 7.1.1;
+						DevelopmentTeam = D9Q4G7A99G;
+					};
+				};
+			};
+			buildConfigurationList = E1F71EFC1C098117005F6C16 /* Build configuration list for PBXProject "GPPropoWiFi" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = E1F71EF81C098117005F6C16;
+			productRefGroup = E1F71F021C098117005F6C16 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E1F71F001C098117005F6C16 /* GPPropoWiFi */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E1F71EFF1C098117005F6C16 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E1F71F0C1C098117005F6C16 /* Assets.xcassets in Resources */,
+				E1F71F0A1C098117005F6C16 /* Main.storyboard in Resources */,
+				5ADC19ED1CFF060C008A585D /* NumericUpDownView.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		2A1420F81354C975274E7C92 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-GPPropoWiFi/Pods-GPPropoWiFi-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7344D8E09627AC4B8CD6B59F /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		7F5310D13DB87D63EF263565 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-GPPropoWiFi/Pods-GPPropoWiFi-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E1F71EFD1C098117005F6C16 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5A2104BF1CC675E2007A3D7B /* PropoView.swift in Sources */,
+				5A6A13731CC52308005A49EF /* ViewController.swift in Sources */,
+				5A6A13721CC522FB005A49EF /* AppDelegate.swift in Sources */,
+				5ADC19EF1CFF0871008A585D /* NumericUpDownView.swift in Sources */,
+				5AB279E31E0945160099F90E /* SerialReceiver.swift in Sources */,
+				5AAAA6131E08020A002F76CE /* WiFiComm.swift in Sources */,
+				5A6753501CFB03AB0020DFFF /* MyButton.swift in Sources */,
+				5A67534E1CFAD5E20020DFFF /* SettingViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		E1F71F081C098117005F6C16 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E1F71F091C098117005F6C16 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		E1F71F111C098117005F6C16 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 2.3;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		E1F71F121C098117005F6C16 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 2.3;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E1F71F141C098117005F6C16 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2B9F4C1676A5904D998AFDFE /* Pods-GPPropoWiFi.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				INFOPLIST_FILE = GPPropoWiFi/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = net.lipoyang.GPPropoWiFi;
+				PRODUCT_NAME = "GP Propo WiFi";
+				PROVISIONING_PROFILE = "";
+				SWIFT_OBJC_BRIDGING_HEADER = "";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		E1F71F151C098117005F6C16 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 740ACC57325F770D94F44E64 /* Pods-GPPropoWiFi.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "iPhone Distribution";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution";
+				INFOPLIST_FILE = GPPropoWiFi/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = net.lipoyang.GPPropoWiFi;
+				PRODUCT_NAME = "GP Propo WiFi";
+				PROVISIONING_PROFILE = "";
+				SWIFT_OBJC_BRIDGING_HEADER = "";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E1F71EFC1C098117005F6C16 /* Build configuration list for PBXProject "GPPropoWiFi" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E1F71F111C098117005F6C16 /* Debug */,
+				E1F71F121C098117005F6C16 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E1F71F131C098117005F6C16 /* Build configuration list for PBXNativeTarget "GPPropoWiFi" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E1F71F141C098117005F6C16 /* Debug */,
+				E1F71F151C098117005F6C16 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E1F71EF91C098117005F6C16 /* Project object */;
+}
