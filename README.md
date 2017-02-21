@@ -60,3 +60,4 @@ GPduino WiFiに関する詳細は、[GPduino特設ページ](http://lipoyang.net
 ## 開発環境と依存ライブラリ
 * このアプリは、Xcodeで開発されました。
 * このアプリは、[CocoaAsyncSocket](https://github.com/robbiehanson/CocoaAsyncSocket)に依存しています。
+    * CocoaAsyncSocketのインストール方法は、[こちら](http://d.hatena.ne.jp/licheng/20161221/p1)で解説しています。
